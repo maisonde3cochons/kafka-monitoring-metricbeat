@@ -7,10 +7,11 @@
 <br>
 
 > #### Metricbeat를 이용하면 복잡한 설정 및 시각화 작업 필요 없이, kafka 주요 metric을 수집 및 시각화가 가능함
-> 
+ 
 - 쉬운 Metric 수집 : Kafka Broker에 JXM 설정 필요없음, Metricbeat 설정 단순함
 - JMX 직접 수집 가능 : Jolokia module을 통해 jmx metric 직접 수집
 - Kafka Dashboard 제공 : 사전에 정의된 kafka monitoring 용 dashboard 제공
+- 한계점 : JMX metric이 아닌 broker가 제공하는 metric 정보만 활용 가능, Producer 및 Consumer는 모니터링 
 
 <br>
 
